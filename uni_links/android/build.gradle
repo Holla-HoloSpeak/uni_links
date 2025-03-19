@@ -23,6 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 35
+    namespace "uni_links"
 
     defaultConfig {
         minSdkVersion 24
